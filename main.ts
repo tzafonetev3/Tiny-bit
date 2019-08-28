@@ -270,7 +270,7 @@ namespace Tinybit {
     
     
     
-    //% blockId=Tinybit_CarCtrl block="CarCtrl|%index"
+    //% blockId=Tinybit_CarCtrl block="|%index רובוט נע"
     //% weight=93
     //% blockGap=10
     //% color="#006400"
@@ -287,7 +287,7 @@ namespace Tinybit {
         }
     }
     
-    //% blockId=Tinybit_CarCtrlSpeed block="CarCtrlSpeed|%index|speed %speed"
+    //% blockId=Tinybit_CarCtrlSpeed block="|%index| %speed הפעלת רובוט במהירות"
     //% weight=92
     //% blockGap=10
     //% speed.min=0 speed.max=255
