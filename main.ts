@@ -363,6 +363,7 @@ namespace Tinybit {
     //% blockId=Tinybit_Voice_Sensor block="ערך חיישן קול"
     //% weight=88
     //% blockGap=10
+    //% color="#cd853f"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12
     export function Voice_Sensor(): number {
 	    //pins.setPull(DigitalPin.P1, PinPullMode.PullUp);
@@ -373,7 +374,7 @@ namespace Tinybit {
 
     }
         
-    //% blockId=Tinybit_Ultrasonic_Car block="ערך חיישן אולטראסוניק בס"מ"
+    //% blockId=Tinybit_Ultrasonic_Car block="ערך חיישן אולטראסוניק בססנטימטר"
     //% color="#cd853f"
     //% weight=87
     //% blockGap=10
