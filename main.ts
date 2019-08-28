@@ -187,7 +187,7 @@ namespace Tinybit {
         return yahStrip;  
     }  
 
-    //% blockId=Tinybit_RGB_Car_Big block="|value %value הדלק פנסי לד קדמיים בצבע"
+    //% blockId=Tinybit_RGB_Car_Big block="|value %value| הדלק פנסי לד קדמיים בצבע"
     //% weight=98
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
@@ -238,7 +238,7 @@ namespace Tinybit {
         setPwmRGB(value1, value2, value3);
 
     }
-    //% blockId=Tinybit_Music_Car block="|%index רובוט מנגן"
+    //% blockId=Tinybit_Music_Car block="|%index| רובוט מנגן"
     //% weight=95
     //% blockGap=10
     //% color="##cd853f"
@@ -270,7 +270,7 @@ namespace Tinybit {
     
     
     
-    //% blockId=Tinybit_CarCtrl block="|%index רובוט נע"
+    //% blockId=Tinybit_CarCtrl block="|%index| רובוט נע"
     //% weight=93
     //% blockGap=10
     //% color="#cd853f"
