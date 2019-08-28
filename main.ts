@@ -177,7 +177,7 @@ namespace Tinybit {
     //% blockId=Tinybit_RGB_Car_Program block="RGB_Car_Program"
     //% weight=99
     //% blockGap=10
-    //% color="#006400"
+    //% color="#cd853f"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function RGB_Car_Program(): neopixel.Strip {
          
@@ -187,7 +187,7 @@ namespace Tinybit {
         return yahStrip;  
     }  
 
-    //% blockId=Tinybit_RGB_Car_Big block="RGB_Car_Big|value %value"
+    //% blockId=Tinybit_RGB_Car_Big block="|value %value הדלק פנסי לד קדמיים בצבע"
     //% weight=98
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
@@ -241,7 +241,7 @@ namespace Tinybit {
     //% blockId=Tinybit_Music_Car block="|%index רובוט מנגן"
     //% weight=95
     //% blockGap=10
-    //% color="#cd853f"
+    //% color="##cd853f"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function Music_Car(index: enMusic): void {
         switch (index) {
