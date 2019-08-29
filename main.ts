@@ -1,4 +1,4 @@
-﻿/*
+/*
 Copyright (C): 2010-2019, Shenzhen Yahboom Tech
 modified from liusen
 load dependency
@@ -16,21 +16,21 @@ namespace Tinybit {
 
     export enum enColor {
 
-        //% blockId="OFF" block="OFF"
+        //% blockId="OFF" block="כיבוי"
         OFF = 0,
-        //% blockId="Red" block="Red"
+        //% blockId="Red" block="אדום"
         Red,
-        //% blockId="Green" block="Green"
+        //% blockId="Green" block="ירוק"
         Green,
-        //% blockId="Blue" block="Blue"
+        //% blockId="Blue" block="כחול"
         Blue,
-        //% blockId="White" block="White"
+        //% blockId="White" block="לבן"
         White,
         //% blockId="Cyan" block="Cyan"
         Cyan,
-        //% blockId="Pinkish" block="Pinkish"
+        //% blockId="Pinkish" block="ורדרד"
         Pinkish,
-        //% blockId="Yellow" block="Yellow"
+        //% blockId="Yellow" block="צהוב"
         Yellow,
 
     }
@@ -60,16 +60,16 @@ namespace Tinybit {
     }
     export enum enPos {
 
-        //% blockId="LeftState" block="LeftState"
+        //% blockId="LeftState" block="משמאל לקו"
         LeftState = 0,
-        //% blockId="RightState" block="RightState"
+        //% blockId="RightState" block="מימין לקו"
         RightState = 1
     }
 
     export enum enLineState {
-        //% blockId="White" block="White Line"
+        //% blockId="White" block="קו לבן"
         White = 0,
-        //% blockId="Black" block="Black Line"
+        //% blockId="Black" block="קו שחור"
         Black = 1
     }
     
@@ -88,19 +88,19 @@ namespace Tinybit {
     }
     
     export enum CarState {
-        //% blockId="Car_Run" block="Run"
+        //% blockId="Car_Run" block="קדימה"
         Car_Run = 1,
-        //% blockId="Car_Back" block="Back"
+        //% blockId="Car_Back" block="אחורה"
         Car_Back = 2,
-        //% blockId="Car_Left" block="Left"
+        //% blockId="Car_Left" block="שמאלה"
         Car_Left = 3,
-        //% blockId="Car_Right" block="Right"
+        //% blockId="Car_Right" block="ימינה"
         Car_Right = 4,
-        //% blockId="Car_Stop" block="Stop"
+        //% blockId="Car_Stop" block="עצור"
         Car_Stop = 5,
-        //% blockId="Car_SpinLeft" block="SpinLeft"
+        //% blockId="Car_SpinLeft" block="סיבוב ציר שמאלה"
         Car_SpinLeft = 6,
-        //% blockId="Car_SpinRight" block="SpinRight"
+        //% blockId="Car_SpinRight" block="סיבוב ציר ימינה"
         Car_SpinRight = 7
     }
 
