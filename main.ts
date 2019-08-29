@@ -270,8 +270,8 @@ namespace Tinybit {
     
     
     
-    //% blockId=Tinybit_CarCtrl block="CarCtrl|%index"
-    //% weight=93
+   <strong> //% blockId=Tinybit_CarCtrl block="|%index" תנועת רובוט
+</strong>    //% weight=93
     //% blockGap=10
     //% color="#FF5733"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
@@ -373,7 +373,7 @@ namespace Tinybit {
 
     }
         
-    //% blockId=Tinybit_Ultrasonic_Car block="ultrasonic return distance(cm)"
+    //% blockId=Tinybit_Ultrasonic_Car block="ערך המרחק הנמדד על ידי החיישן  האולטראסוניק בסנטימטר"
     //% color="#FF5733"
     //% weight=87
     //% blockGap=10
