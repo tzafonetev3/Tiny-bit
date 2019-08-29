@@ -228,7 +228,7 @@ namespace Tinybit {
             }
         }
     }
-    //% blockId=Tinybit_RGB_Car_Big2 block="הפעלת לדים קדממים בגוון|אדום %value1|ירוק %value2|כחול %value3"
+    //% blockId=Tinybit_RGB_Car_Big2 block="הפעלת לדים קדמים בגוון|אדום %value1|ירוק %value2|כחול %value3"
     //% weight=97
     //% blockGap=10
     //% value1.min=0 value1.max=255 value2.min=0 value2.max=255 value3.min=0 value3.max=255
@@ -305,7 +305,7 @@ namespace Tinybit {
         }
     }
     
-    //% blockId=Tinybit_CarCtrlSpeed2 block="תנועה של הרובוט|%index|מהירות גלגל שמאל %speed1|מהירות גלגל ימין %speed2"
+    //% blockId=Tinybit_CarCtrlSpeed2 block="תנועה של הרובוט|%index|מהירות סיבוב שמאל %speed1|מהירות סיבוב ימין %speed2"
     //% weight=91
     //% blockGap=10
     //% speed1.min=0 speed1.max=255 speed2.min=0 speed2.max=255
@@ -325,7 +325,7 @@ namespace Tinybit {
         
    
     
-    //% blockId=Tinybit_Line_Sensor block="חיישן קו|ישיר %direct|ערך %value"
+    //% blockId=Tinybit_Line_Sensor block="ערך חיישן| %direct|קו %value"
     //% weight=89
     //% blockGap=10
     //% color="#FF5733"
