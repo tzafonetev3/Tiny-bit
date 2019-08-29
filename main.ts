@@ -187,7 +187,7 @@ namespace Tinybit {
         return yahStrip;  
     }  
 
-   //% blockId=Tinybit_RGB_Car_Big block="פנסי לד קדמים|מצב %value"
+   //% blockId=Tinybit_RGB_Car_Big block=" %value פנסי לד קדמים|מצב"
     //% weight=98
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
@@ -238,7 +238,7 @@ namespace Tinybit {
         setPwmRGB(value1, value2, value3);
 
     }
-    //% blockId=Tinybit_Music_Car block="Music_Car|%index"
+    //% blockId=Tinybit_Music_Car block="|%index  רובוט מנגן"
     //% weight=95
     //% blockGap=10
     //% color="#006400"
