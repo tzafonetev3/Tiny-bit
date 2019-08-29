@@ -228,7 +228,7 @@ namespace Tinybit {
             }
         }
     }
-    //% blockId=Tinybit_RGB_Car_Big2 block="RGB_Car_Big2|value1 %value1|value2 %value2|value3 %value3"
+    //% blockId=Tinybit_RGB_Car_Big2 block="הפעלת לדים קדממים בגוון|אדום %value1|ירוק %value2|כחול %value3"
     //% weight=97
     //% blockGap=10
     //% value1.min=0 value1.max=255 value2.min=0 value2.max=255 value3.min=0 value3.max=255
