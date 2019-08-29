@@ -187,7 +187,7 @@ namespace Tinybit {
         return yahStrip;  
     }  
 
-    //% blockId=Tinybit_RGB_Car_Big block="|value %value| הדלק פנסי לד קדמיים בצבע"
+   //% blockId=Tinybit_RGB_Car_Big block="פנסי לד קדמים|מצב %value"
     //% weight=98
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
@@ -238,10 +238,10 @@ namespace Tinybit {
         setPwmRGB(value1, value2, value3);
 
     }
-    //% blockId=Tinybit_Music_Car block="|%index| רובוט מנגן"
+    //% blockId=Tinybit_Music_Car block="Music_Car|%index"
     //% weight=95
     //% blockGap=10
-    //% color="##cd853f"
+    //% color="#006400"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function Music_Car(index: enMusic): void {
         switch (index) {
@@ -270,10 +270,10 @@ namespace Tinybit {
     
     
     
-    //% blockId=Tinybit_CarCtrl block="|%index| רובוט נע"
+    //% blockId=Tinybit_CarCtrl block="CarCtrl|%index"
     //% weight=93
     //% blockGap=10
-    //% color="#cd853f"
+    //% color="#006400"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
     export function CarCtrl(index: CarState): void {
         switch (index) {
@@ -287,11 +287,11 @@ namespace Tinybit {
         }
     }
     
-    //% blockId=Tinybit_CarCtrlSpeed block="|%index| %speed הפעלת רובוט במהירות"
+    //% blockId=Tinybit_CarCtrlSpeed block="CarCtrlSpeed|%index|speed %speed"
     //% weight=92
     //% blockGap=10
     //% speed.min=0 speed.max=255
-    //% color="#cd853f"
+    //% color="#006400"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
     export function CarCtrlSpeed(index: CarState, speed: number): void {
         switch (index) {
@@ -309,7 +309,7 @@ namespace Tinybit {
     //% weight=91
     //% blockGap=10
     //% speed1.min=0 speed1.max=255 speed2.min=0 speed2.max=255
-    //% color="#cd853f"
+    //% color="#006400"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
     export function CarCtrlSpeed2(index: CarState, speed1: number, speed2: number): void {
         switch (index) {
@@ -328,7 +328,7 @@ namespace Tinybit {
     //% blockId=Tinybit_Line_Sensor block="Line_Sensor|direct %direct|value %value"
     //% weight=89
     //% blockGap=10
-    //% color="#cd853f"
+    //% color="#006400"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12
     export function Line_Sensor(direct: enPos, value: enLineState): boolean {
 
@@ -360,10 +360,9 @@ namespace Tinybit {
 
     }
 
-    //% blockId=Tinybit_Voice_Sensor block="ערך חיישן קול"
+    //% blockId=Tinybit_Voice_Sensor block="Voice Sensor return"
     //% weight=88
     //% blockGap=10
-    //% color="#cd853f"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12
     export function Voice_Sensor(): number {
 	    //pins.setPull(DigitalPin.P1, PinPullMode.PullUp);
@@ -374,8 +373,8 @@ namespace Tinybit {
 
     }
         
-    //% blockId=Tinybit_Ultrasonic_Car block="ערך חיישן אולטראסוניק בססנטימטר"
-    //% color="#cd853f"
+    //% blockId=Tinybit_Ultrasonic_Car block="ultrasonic return distance(cm)"
+    //% color="#006400"
     //% weight=87
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
