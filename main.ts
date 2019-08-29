@@ -1,4 +1,4 @@
-﻿/*
+ /*
 Copyright (C): 2010-2019, Shenzhen Yahboom Tech
 modified from liusen
 load dependency
@@ -187,7 +187,7 @@ namespace Tinybit {
         return yahStrip;  
     }  
 
-    //% blockId=Tinybit_RGB_Car_Big block="RGB_Car_Big|value %value"
+    //% blockId=Tinybit_RGB_Car_Big block="נורות לד קדמיות|צבע %value"
     //% weight=98
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
