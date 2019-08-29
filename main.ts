@@ -1,30 +1,11 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@tzafonetev3 
-0
-0 4 tzafonetev3/mosrobot
-forked from lzty634158/Tiny-bit
- Code  Pull requests 0  Projects 0  Wiki  Security  Insights  Settings
-mosrobot/main.ts
-@tzafonetev3 tzafonetev3 Update main.ts
-5f1ecc2 4 minutes ago
-402 lines (343 sloc)  13.7 KB
-    
-/*
+﻿/*
 Copyright (C): 2010-2019, Shenzhen Yahboom Tech
 modified from liusen
 load dependency
 "Tinybit": "file:../pxt-Tinybit"
 */
 
-//% color="#FF5733  " weight=20 icon="\uf1b9"
+//% color="#FF5733" weight=20 icon="\uf1b9"
 namespace Tinybit {
 
     const PWM_ADD = 0x01
@@ -35,7 +16,7 @@ namespace Tinybit {
 
     export enum enColor {
 
-        //% blockId="OFF" block="כיבוי"
+        //% blockId="OFF" block="מכובה"
         OFF = 0,
         //% blockId="Red" block="אדום"
         Red,
@@ -79,9 +60,9 @@ namespace Tinybit {
     }
     export enum enPos {
 
-        //% blockId="LeftState" block="LeftState"
+        //% blockId="LeftState" block="משמאל לקו"
         LeftState = 0,
-        //% blockId="RightState" block="RightState"
+        //% blockId="RightState" block="מימין לקו"
         RightState = 1
     }
 
@@ -101,7 +82,7 @@ namespace Tinybit {
     export enum enAvoidState {
         //% blockId="OBSTACLE" block="מכשול"
         OBSTACLE = 1,
-        //% blockId="NOOBSTACLE" block="איו מכשול"
+        //% blockId="NOOBSTACLE" block="אין מכשול"
         NOOBSTACLE = 0
 
     }
@@ -117,9 +98,9 @@ namespace Tinybit {
         Car_Right = 4,
         //% blockId="Car_Stop" block="עצור"
         Car_Stop = 5,
-        //% blockId="Car_SpinLeft" block="סיבוב שמאלה"
+        //% blockId="Car_SpinLeft" block="סחרור שמאלה"
         Car_SpinLeft = 6,
-        //% blockId="Car_SpinRight" block="סיבוב ימינה"
+        //% blockId="Car_SpinRight" block="סחרור ימינה"
         Car_SpinRight = 7
     }
 
@@ -196,7 +177,7 @@ namespace Tinybit {
     //% blockId=Tinybit_RGB_Car_Program block="RGB_Car_Program"
     //% weight=99
     //% blockGap=10
-    //% color="#cd853f"
+    //% color="#FF5733"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function RGB_Car_Program(): neopixel.Strip {
          
@@ -206,7 +187,7 @@ namespace Tinybit {
         return yahStrip;  
     }  
 
-   //% blockId=Tinybit_RGB_Car_Big block=" %value פנסי לד קדמים|מצב"
+    //% blockId=Tinybit_RGB_Car_Big block="RGB_Car_Big|value %value"
     //% weight=98
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
@@ -257,10 +238,10 @@ namespace Tinybit {
         setPwmRGB(value1, value2, value3);
 
     }
-    //% blockId=Tinybit_Music_Car block="|%index  רובוט מנגן"
+    //% blockId=Tinybit_Music_Car block="רובוט מנגן|%index"
     //% weight=95
     //% blockGap=10
-    //% color="#FF5733  "
+    //% color="#FF5733"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function Music_Car(index: enMusic): void {
         switch (index) {
@@ -289,10 +270,10 @@ namespace Tinybit {
     
     
     
-    //% blockId=Tinybit_CarCtrl block="CarCtrl|%index"
+    //% blockId=Tinybit_CarCtrl block="תנועה של הרובוט|%index"
     //% weight=93
     //% blockGap=10
-    //% color="#FF5733  "
+    //% color="#FF5733"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
     export function CarCtrl(index: CarState): void {
         switch (index) {
@@ -310,7 +291,7 @@ namespace Tinybit {
     //% weight=92
     //% blockGap=10
     //% speed.min=0 speed.max=255
-    //% color="#FF5733  "
+    //% color="#FF5733"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
     export function CarCtrlSpeed(index: CarState, speed: number): void {
         switch (index) {
@@ -324,11 +305,11 @@ namespace Tinybit {
         }
     }
     
-    //% blockId=Tinybit_CarCtrlSpeed2 block="במהירות %speed  הפעלת רובוט |%index|"
+    //% blockId=Tinybit_CarCtrlSpeed2 block="CarCtrlSpeed2|%index|speed1 %speed1|speed2 %speed2"
     //% weight=91
     //% blockGap=10
     //% speed1.min=0 speed1.max=255 speed2.min=0 speed2.max=255
-    //% color="#FF5733  "
+    //% color="#FF5733"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
     export function CarCtrlSpeed2(index: CarState, speed1: number, speed2: number): void {
         switch (index) {
@@ -347,7 +328,7 @@ namespace Tinybit {
     //% blockId=Tinybit_Line_Sensor block="Line_Sensor|direct %direct|value %value"
     //% weight=89
     //% blockGap=10
-    //% color="#FF5733  "
+    //% color="#FF5733"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12
     export function Line_Sensor(direct: enPos, value: enLineState): boolean {
 
@@ -379,7 +360,7 @@ namespace Tinybit {
 
     }
 
-    //% blockId=Tinybit_Voice_Sensor block="Voice Sensor return"
+    //% blockId=Tinybit_Voice_Sensor block="ערך חיישן הקול"
     //% weight=88
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12
@@ -392,8 +373,8 @@ namespace Tinybit {
 
     }
         
-    //% blockId=Tinybit_Ultrasonic_Car block="ultrasonic return distance(cm)"
-    //% color="#FF5733  "
+    //% blockId=Tinybit_Ultrasonic_Car block="ערך חיישן אולטראסוניק בסנטימטר"
+    //% color="#FF5733"
     //% weight=87
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
