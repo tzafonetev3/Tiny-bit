@@ -1,4 +1,4 @@
-Skip to content
+ Skip to content
  
 Search or jump to…
 
@@ -24,7 +24,7 @@ load dependency
 "Tinybit": "file:../pxt-Tinybit"
 */
 
-//% color="#F28E78" weight=20 icon="\uf1b9"
+//% color="#FF5733  " weight=20 icon="\uf1b9"
 namespace Tinybit {
 
     const PWM_ADD = 0x01
@@ -260,7 +260,7 @@ namespace Tinybit {
     //% blockId=Tinybit_Music_Car block="|%index  רובוט מנגן"
     //% weight=95
     //% blockGap=10
-    //% color="#F28E78"
+    //% color="#FF5733  "
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function Music_Car(index: enMusic): void {
         switch (index) {
@@ -292,7 +292,7 @@ namespace Tinybit {
     //% blockId=Tinybit_CarCtrl block="CarCtrl|%index"
     //% weight=93
     //% blockGap=10
-    //% color="#F28E78"
+    //% color="#FF5733  "
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
     export function CarCtrl(index: CarState): void {
         switch (index) {
@@ -310,7 +310,7 @@ namespace Tinybit {
     //% weight=92
     //% blockGap=10
     //% speed.min=0 speed.max=255
-    //% color="#F28E78"
+    //% color="#FF5733  "
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
     export function CarCtrlSpeed(index: CarState, speed: number): void {
         switch (index) {
@@ -328,7 +328,7 @@ namespace Tinybit {
     //% weight=91
     //% blockGap=10
     //% speed1.min=0 speed1.max=255 speed2.min=0 speed2.max=255
-    //% color="#F28E78"
+    //% color="#FF5733  "
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
     export function CarCtrlSpeed2(index: CarState, speed1: number, speed2: number): void {
         switch (index) {
@@ -347,7 +347,7 @@ namespace Tinybit {
     //% blockId=Tinybit_Line_Sensor block="Line_Sensor|direct %direct|value %value"
     //% weight=89
     //% blockGap=10
-    //% color="#F28E78"
+    //% color="#FF5733  "
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12
     export function Line_Sensor(direct: enPos, value: enLineState): boolean {
 
@@ -393,7 +393,7 @@ namespace Tinybit {
     }
         
     //% blockId=Tinybit_Ultrasonic_Car block="ultrasonic return distance(cm)"
-    //% color="#F28E78"
+    //% color="#FF5733  "
     //% weight=87
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
@@ -418,15 +418,3 @@ namespace Tinybit {
 
 
 }
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
