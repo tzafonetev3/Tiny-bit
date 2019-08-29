@@ -67,9 +67,9 @@ namespace Tinybit {
     }
 
     export enum enLineState {
-        //% blockId="White" block="קו_לבן"
+        //% blockId="White" block="לבן"
         White = 0,
-        //% blockId="Black" block="קו_שחור"
+        //% blockId="Black" block="שחור"
         Black = 1
     }
     
@@ -325,7 +325,7 @@ namespace Tinybit {
         
    
     
-    //% blockId=Tinybit_Line_Sensor block="חיישן | %direct| ערך %value"
+    //% blockId=Tinybit_Line_Sensor block="ערך חיישן | %direct|  %value"
     //% weight=89
     //% blockGap=10
     //% color="#FF5733"
