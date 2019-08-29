@@ -325,7 +325,7 @@ namespace Tinybit {
         
    
     
-    //% blockId=Tinybit_Line_Sensor block="ערך חיישן| %direct| %value"
+    //% blockId=Tinybit_Line_Sensor block="חיישן קו|direct %direct| ערך %value"
     //% weight=89
     //% blockGap=10
     //% color="#FF5733"
