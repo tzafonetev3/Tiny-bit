@@ -80,9 +80,9 @@ namespace Tinybit {
         NoGet = 1
     }    
     export enum enAvoidState {
-        //% blockId="OBSTACLE" block="Obstacle"
+        //% blockId="OBSTACLE" block="מכשול"
         OBSTACLE = 1,
-        //% blockId="NOOBSTACLE" block="No Obstacle"
+        //% blockId="NOOBSTACLE" block="איו מכשול"
         NOOBSTACLE = 0
 
     }
@@ -187,7 +187,7 @@ namespace Tinybit {
         return yahStrip;  
     }  
 
-    //% blockId=Tinybit_RGB_Car_Big block="פנסי לד קדמים|מצב %value"
+    //% blockId=Tinybit_RGB_Car_Big block=" %value פנסי לד קדמים|מצב"
     //% weight=98
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
