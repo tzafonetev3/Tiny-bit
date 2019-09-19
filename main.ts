@@ -60,9 +60,9 @@ namespace Tinybit {
     }
     export enum enPos {
 
-        //% blockId="LeftState" block="חיישן שמאלי"
+        //% blockId="LeftState" block="שמאלי"
         LeftState = 0,
-        //% blockId="RightState" block="חיישן ימני"
+        //% blockId="RightState" block="ימני"
         RightState = 1
     }
 
